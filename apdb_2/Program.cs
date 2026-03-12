@@ -3,7 +3,7 @@
     public static int Add(int a, int b) => a + b;
     public static int Sub(int a, int b) => a - b;
 
-    public int MaxValues(int[] values)
+    public int SomeValues(int[] values)
     {
         values[0] = 0;
         return values.Max(); 
