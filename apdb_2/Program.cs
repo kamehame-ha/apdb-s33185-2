@@ -11,5 +11,7 @@
     {
         Console.WriteLine(Add(1,2));
         Console.WriteLine(Sub(1,2));
+        Console.WriteLine(Add(2, 3));
+        Console.WriteLine(Sub(2, 3));
     }
 }
