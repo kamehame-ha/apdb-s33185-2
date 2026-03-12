@@ -7,6 +7,10 @@
     {
         return values.Average();
     }
+    public int MaxValues(int[] values)
+    {
+        return values.Max(); 
+    }
     public static void Main(string[] args)
     {
         Console.WriteLine(Add(1,2));
