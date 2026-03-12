@@ -11,7 +11,6 @@
 
     public int MinValues(int[] values)
     {
-        if (values == null) return 0;
         return values.Min(); 
     }
     public static void Main(string[] args)
