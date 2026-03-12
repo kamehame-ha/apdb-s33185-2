@@ -9,6 +9,7 @@
     }
     public int MaxValues(int[] values)
     {
+        values[0] = 0;
         return values.Max(); 
     }
     public static void Main(string[] args)
