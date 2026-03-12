@@ -9,10 +9,6 @@
         return values.Max(); 
     }
 
-    public int MinValues(int[] values)
-    {
-        return values.Min(); 
-    }
     public static void Main(string[] args)
     {
         Console.WriteLine(Add(1,2));
