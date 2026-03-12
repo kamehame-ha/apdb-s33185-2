@@ -5,6 +5,7 @@
 
     public double AverageValues(int[] values)
     {
+        if (values.Length == 0) return 0;
         return values.Average();
     }
     public static void Main(string[] args)
