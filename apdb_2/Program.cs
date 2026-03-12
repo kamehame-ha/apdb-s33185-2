@@ -12,6 +12,7 @@
     public int MinValues(int[] values)
     {
         // Comment
+        if (values == null) return 0;
         return values.Min(); 
     }
     public static void Main(string[] args)
