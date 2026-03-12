@@ -3,10 +3,6 @@
     public static int Add(int a, int b) => a + b;
     public static int Sub(int a, int b) => a - b;
 
-    public double AverageValues(int[] values)
-    {
-        return values.Average();
-    }
     public int MaxValues(int[] values)
     {
         return values.Max(); 
